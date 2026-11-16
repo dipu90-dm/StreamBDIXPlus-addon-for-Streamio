@@ -22,28 +22,28 @@ npx streambdixplus
 
 ---
 
-## ➕ Stremio-তে StreamBDIX+ Addon যোগ করার নিয়ম
+## ➕ How to Add StreamBDIX+ to Stremio
 
-### ১. Stremio ডাউনলোড ও ইনস্টল করুন
+### 1. Download & Install Stremio
 
-1. [stremio.com](https://www.stremio.com/) থেকে `Stremio` ডাউনলোড করুন, তারপর আপনার ডিভাইস অনুযায়ী ইনস্টল করুন।
-2. একটি Stremio অ্যাকাউন্ট তৈরি করুন।
+1. Download `Stremio` from [stremio.com](https://www.stremio.com/), then follow the instructions for your device.
+2. Create a Stremio account.
 
-### ২. Addon ইনস্টল করুন
+### 2. Install the Addon
 
-1. প্রথমে টার্মিনালে `npx streambdixplus` চালিয়ে addon চালু রাখুন।
-2. Stremio খুলে **Addons** এ যান এবং **Add Addon** ক্লিক করুন।
-3. নিচের URL পেস্ট করে addon ইনস্টল করুন:
+1. First, start the addon by running `npx streambdixplus` in your terminal and keep it running.
+2. Open Stremio, go to **Addons**, and click **Add Addon**.
+3. Paste the following URL and install the addon:
 
 ```
 http://127.0.0.1:7001/manifest.json
 ```
 
-### ⚠️ গুরুত্বপূর্ণ নোট
+### ⚠️ Important Note
 
-এই addon PC ছাড়া অন্য প্ল্যাটফর্ম থেকে সরাসরি যোগ করা যায় না।
+This addon cannot be added directly from platforms other than a PC.
 
-প্রথমে আপনার **PC-তে** Stremio অ্যাকাউন্টে লগইন করুন (বা অ্যাকাউন্ট তৈরি করুন) এবং সেখানে addon ইনস্টল করুন। এরপর অন্য ডিভাইসগুলোতে (Android TV, Android ইত্যাদি) একই Stremio অ্যাকাউন্টে লগইন করলেই addon নিজে থেকে সব ডিভাইসে সিঙ্ক হয়ে যাবে।
+First, create or log in to your Stremio account on your **PC** and install the addon there. Once installed, simply log in with the same Stremio account on your other devices (Android TV, Android, etc.). The addon will automatically sync across all your devices.
 
 ---
 
