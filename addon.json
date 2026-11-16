@@ -1,0 +1,21 @@
+{
+  "id": "com.streambdixplus",
+  "name": "StreamBDIX+",
+  "version": "1.4.1",
+  "description": "Stream from BDIX sites on Stremio",
+  "resources": [
+    "stream"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [],
+  "idPrefixes": [
+    "tt"
+  ],
+  "behaviorHints": {
+    "adult": false,
+    "p2p": false
+  }
+}

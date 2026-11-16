@@ -1,0 +1,39 @@
+{
+  "name": "streambdixplus",
+  "version": "1.4.1",
+  "description": "Stream from BDIX sites on Stremio",
+  "main": "index.js",
+  "bin": {
+    "streambdixplus": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "stremio",
+    "bdix",
+    "streaming"
+  ],
+  "author": "corpse",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "stremio-addon-sdk": "^1.6.10"
+  },
+  "files": [
+    "index.js",
+    "server.js",
+    "ui.js",
+    "config-migrate.js",
+    "addon.json",
+    "public",
+    "sources",
+    "README.md",
+    "CHANGELOG.md",
+    "start-streambdixplus.bat",
+    "start-streambdixplus.sh"
+  ],
+  "engines": {
+    "node": ">=14"
+  }
+}
